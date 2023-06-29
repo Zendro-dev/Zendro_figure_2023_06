@@ -1,0 +1,25 @@
+Mutations for the countries of:
+Italy, Greece, Egypt, Japan, Turkey, Jordan, China, Netherlands, 
+United Kingdom, Australia, United States, Russia, South Africa, 
+India, Argentina, Israel
+
+INSERT INTO countries(country_id, name, population, size)
+VALUES (1, 'germany', 83500000, 357588),
+(2, 'france', 6775000, 51695),
+(3, 'japan', 126260000, 377973),
+(4, 'italy', 60360000, 301340),
+(5, 'egypt', 104260000, 1001450),
+(6, 'turkey', 84340000, 783356),
+(7, 'jordan', 10980000, 89342),
+(8, 'china', 1410000000, 9596961),
+(9, 'greece', 10420000, 131957),
+(10, 'netherlands', 17470000, 41543),
+(11, 'united kingdom', 66650000, 242910),
+(12, 'australia', 25360000, 7692024),
+(13, 'united states of america', 332640000, 9826630),
+(14, 'russia', 145910000, 17098242),
+(15, 'south africa', 59620000, 1221037),
+(16, 'india', 1390000000, 3287263),
+(17, 'argentina', 45380000, 2780400),
+(18, 'israel', 9290000, 20770),
+(19, 'spain', 47300000, 505990);

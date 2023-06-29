@@ -1,0 +1,56 @@
+To Do:
+- Remove second query
+- Modify models: 
+- Maize species: remove relative, basically just name and is-resistant-to-drought
+- delete genes
+            - maize_stats: rename to height_measurement
+           
+
+
+
+Scientific questions:
+What are the height measurements of variant A after n days of drought
+What are those of variant B after n days of drought
+How do they compare?  
+
+NEW
+====
+
+Data Models:
+Maize-Variant (name) -> data: Variant-A, Variant-B
+Maize-Experiment: (name) ->  data: 
+
+
+
+
+
+LH:
+Links: AND & OR
+Mitte: GraphQL
+Rechts: Ergebnis von GraphQL
+“Triplets” statt T1
+Fragestellung:
+“Historian wants to fint suitable dif.sites: Cities, that are big and have not been digged in often - are good. Underground building revealed a bit of archaelogical sites
+Founding date before 400 AD, dann operationen auf DATUM bzw erbauung der stadt laufen und filtern lassen, ansonsten area der stadt
+
+To-Do:
+CITY model anpassen: 4 felder hinzufügen founding date als dateTme, surface_area als INT, founding_culture: String, hasSubway: Boolean
+zendro generate -m
+befüllen mit mutations graphql 
+zeiten befüllen
+max 10 städte
+A L L E S   S P E I C H E R N  -  for reproducibility
+
+
+Schema:
+(founding  400 OR roman) AND (has_Subway = True NOT) 
+GraphQL: Search: Operator, Suchen, welche operatoren mit datum funktionieren
+
+
+country unverändert drinnen lassen
+Query 2 könnte verbindung zu städten herstellen um da citys mit einzubinden
+nur GraphQL zeigen (Asis erklärt rest in caption)
+zeigen: countries, name = germany, cities query da mit einfügen wie aus query 1 (muss mit associations arbeiten)
+“Es sind nicht nur komplexer query möglich, sondern auch das verknüpfen bzw. verarbeiten von und mit associations
+
+

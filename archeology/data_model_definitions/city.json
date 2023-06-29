@@ -1,0 +1,35 @@
+{
+  "model": "city",
+  "storageType": "sql",
+  "attributes": {
+    "city_id": "String",
+    "name": "String",
+    "founding_date": "DateTime",
+    "founding_culture": "String",
+    "surface_area": "Int",
+    "has_subway": "Boolean",
+    "population": "Int",
+		"country_id": "String"
+  },
+  "associations": {
+		"country": {
+			"type": "many_to_one",
+      "implementation": "foreignkeys",
+			"reverseAssociation": "cities",
+      "target": "country",
+      "targetStorageType": "sql",
+      "targetKey": "country_id",
+      "keysIn": "city"	
+		},
+    "capitalTo": {
+     "type": "one_to_one",
+      "implementation": "foreignkeys",
+			"reverseAssociation": "capital",
+      "target": "country",
+      "targetStorageType": "sql",
+      "targetKey": "capital_id",
+      "keysIn": "country"	 
+    }
+  },
+  "internalId": "city_id"
+}

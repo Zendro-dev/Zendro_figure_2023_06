@@ -1,0 +1,13 @@
+FROM node:16-stretch-slim
+
+# Create app directory
+WORKDIR /usr/graphql-server
+
+ENV JQ_PATH=/usr/bin/jq
+ENV NODE_JQ_SKIP_INSTALL_BINARY=true
+
+# Install and setup dependencies
+RUN apt-get update && apt-get install -y autoconf libtool make python3 g++ jq \
+	&& ln -s /usr/bin/python3 /usr/bin/python
+
+EXPOSE 3000

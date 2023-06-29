@@ -1,0 +1,87 @@
+WHOLE INSERT:
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES (1, 'Rome', '0001-01-01T01:01:01Z', 'Latin', 1285, true, 2870000, 4),
+(2, 'Athens', '0001-01-01T01:01:01Z', 'Greek', 412, true, 664046, 9),
+(3, 'Cairo', '0969-01-01T01:01:01Z', 'Islamic', 528, true, 9500000, 5),
+(4, 'Istanbul', '0001-01-01T01:01:01Z', 'Greek', 5461, true, 15030000, 6),
+(5, 'Petra', '0001-01-01T01:01:01Z', 'Nabatean', 264, false, 30000, 7),
+(6, 'Beijing', '0001-01-01T01:01:01Z', 'Chinese', 16411, true, 21540000, 8),
+(7, 'Jerusalem', '0001-01-01T01:01:01Z', 'Canaanite', 125,  false, 901302, 18),
+(8, 'Alexandria', '0001-01-01T01:01:01Z', 'Greek', 2679, false, 5000000, 5),
+(9, 'Berlin', '1237-01-01T01:01:01Z', 'Slavic', 892, true, 3670000, 1),
+(10, 'Paris', '0001-01-01T01:01:01Z', 'Celtic', 105, true, 2140000, 2),
+(11, 'Amsterdam', '1300-01-01T01:01:01Z', 'Dutch', 219, true, 872680, 10),
+(12, 'London', '0043-01-01T01:01:01Z', 'Roman', 1572, true, 8980000, 11),
+(13, 'Sydney', '1788-01-01T01:01:01Z', 'British', 2029, false, 5310000, 12),
+(14, 'New York City', '1624-01-01T01:01:01Z', 'Dutch', 784, true, 8530000, 13),
+(15, 'Moscow', '1147-01-01T01:01:01Z', 'Russian', 2562, true, 12540000, 14),
+(16, 'Tokyo', '1457-01-01T01:01:01Z', 'Japanese', 2188, true, 13960000, 3),
+(17, 'Cape Town', '1652-01-01T01:01:01Z', 'Dutch', 2444, false, 4050000, 15),
+(18, 'Buenos Aires', '1536-01-01T01:01:01Z', 'Spanish', 203, true, 28900000, 17),
+(19, 'Delhi', '0001-01-01T01:01:01Z', 'Vedic', 1484, true, 31400000, 16),
+(20, 'Barcelona', '0200-01-01T01:01:01Z', 'Roman', 101, true, 1600000, 19),
+(21, 'Cologne', '0050-01-01T01:01:01Z', 'Roman', 405, true, 1080000, 1),
+(22, 'Bath', '0060-01-01T01:01:01Z', 'Roman', 29, false, 90000, 11);
+
+
+
+
+
+
+SINGLE INSERTS:
+VALUES(1, 'Rome', '0001-01-01T01:01:01Z', 'Latin', 1285, true, 2870000, 4);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(2, 'Athens', '0001-01-01T01:01:01Z', 'Greek', 412, true, 664046, 9);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(3, 'Cairo', '0969-01-01T01:01:01Z', 'Islamic', 528, true, 9500000, 5);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(4, 'Istanbul', '0001-01-01T01:01:01Z', 'Greek', 5461, true, 15030000, 6);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(5, 'Petra', '0001-01-01T01:01:01Z', 'Nabatean' 264, false, 30000, 7);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(6, 'Beijing', '0001-01-01T01:01:01Z', 'Chinese', 16411, true, 21540000, 8);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(7, 'Jerusalem', '0001-01-01T01:01:01Z', 'Canaanite', 125,  false, 901302, 18);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(8, 'Alexandria', '0001-01-01T01:01:01Z', 'Greek', 2679, false, 5000000, 5);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(9, 'Berlin', '1237-01-01T01:01:01Z', 'Slavic', 892, true, 3670000, 1);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(10, 'Paris', '0001-01-01T01:01:01Z', 'Celtic', 105, true, 2140000, 2);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(11, 'Amsterdam', '1300-01-01T01:01:01Z', 'Dutch', 219, true, 872680, 10);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(12, 'London', '0043-01-01T01:01:01Z', 'Roman', 1572, true, 8980000, 11);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(13, 'Sydney', '1788-01-01T01:01:01Z', 'British', 2029, false, 5310000, 12);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(14, 'New York City', '1624-01-01T01:01:01Z', 'Dutch', 784, true, 8530000, 13);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(15, 'Moscow', '1147-01-01T01:01:01Z', 'Russian', 2562, true, 12540000, 14);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(16, 'Tokyo', '1457-01-01T01:01:01Z', 'Japanese', 2188, true, 13960000, 3);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(17, 'Cape Town', '1652-01-01T01:01:01Z', 'Dutch', 2444, false, 4050000, 15);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(18, 'Buenos Aires', '1536-01-01T01:01:01Z', 'Spanish', 203, true, 28900000, 17);
+
+INSERT INTO cities(city_id, name, founding_date, founding_culture, surface_area, has_subway, population, country_id)
+VALUES(19, 'Delhi', '0001-01-01T01:01:01Z', 'Vedic', 1484, true, 31400000, 16);
