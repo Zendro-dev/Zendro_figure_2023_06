@@ -3,4 +3,4 @@ FROM node:16-stretch-slim
 # Create app directory
 WORKDIR /usr/graphiql-auth
 
-EXPOSE 7000
+EXPOSE 7070
